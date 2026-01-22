@@ -80,3 +80,15 @@ The application follows a modular "Chained" pipeline:
 ├── ingest.py                # Script to create the Knowledge Base
 ├── requirements.txt         # Dependency list for deployment
 └── README.md                # Documentation
+
+## 🔗 Live Demo
+Experience the assistant in real-time:  
+🚀 **[Sunmarke AI Live Assistant](https://sunmarkeschool.streamlit.app/)**
+
+*Note: For the best experience, please allow microphone access when prompted to use the voice-search feature.*
+
+### 🌐 Cloud Architecture & Deployment
+The application is hosted on **Streamlit Community Cloud**, utilizing a headless Linux environment. 
+- **Secret Management:** Sensitive API credentials (Deepgram, OpenRouter, ElevenLabs) are managed via Streamlit's encrypted Secrets layer to ensure zero-exposure of keys in the public repository.
+- **Continuous Integration:** Automated deployment pipeline triggers a rebuild on every `git push`, ensuring the live environment is always synced with the latest codebase.
+- **Persistent Knowledge Base:** The FAISS vector index is packaged within the repository, allowing for instantaneous similarity search without external database latency.
