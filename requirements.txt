@@ -11,3 +11,4 @@ openai  # (Required for DeepSeek/Kimi if they use OpenAI-compatible clients)
 deepgram-sdk
 elevenlabs
 streamlit-mic-recorder
+sentence-transformers
