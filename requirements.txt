@@ -1,0 +1,12 @@
+streamlit
+requests
+python-dotenv
+langchain-community
+langchain-huggingface
+openai
+streamlit-mic-recorder
+elevenlabs
+faiss-cpu
+sentence-transformers
+huggingface-hub
+torch --index-url https://download.pytorch.org/whl/cpu
